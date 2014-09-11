@@ -378,6 +378,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ksm.default=1
 
+# Add adb access at boot
+
+################################
+
 # CmUpdater
 PRODUCT_PROPERTY_OVERRIDES += \
     cm.updater.uri=http://api.quarx.cm-for.us/api \
